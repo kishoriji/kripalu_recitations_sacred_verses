@@ -1,5 +1,19 @@
 import os
 
+import re
+
+
+def sort_files(files):
+    def key_func(file):
+        # Split the file name into a list of integers and strings
+        parts = re.split(r'(\d+)', file)
+        # Convert the integers to actual integers
+        parts = [int(part) if part.isdigit() else part for part in parts]
+        return parts
+
+    # Sort the files using the key function
+    return sorted(files, key=key_func)
+
 
 def generate_html(base_dir):
     html_content = '''
@@ -63,6 +77,9 @@ def generate_html(base_dir):
     <body>
         <div class="container">
             <h1>Slokas Recitations by Kripalu Maharaj</h1>
+            <div style="text-align: center;">
+                <img src="cover.jpg" alt="Kripalu Maharaj" style="width: 20%;">
+            </div>
     '''
 
     # Generate HTML for directory and files
@@ -76,7 +93,7 @@ def generate_html(base_dir):
         html_content += f'<div class="category">\n'
         html_content += f'    <h2>{category}</h2>\n'
         html_content += f'    <div id="{category.replace(os.sep, "_")}" class="files">\n'
-        for file in sorted(files):
+        for file in sort_files(files):
             if file.endswith('.mp3'):
                 file_path = os.path.join(category, file)
                 html_content += f'        <div class="file-item">\n'
