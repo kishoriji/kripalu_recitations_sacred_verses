@@ -2,7 +2,7 @@
 A Repository of Sacred Slokas Recitations by Jagadguru Shri Kripalu Ji Maharaj
 
 ## Repository Content
-This repository contains a collection of short 10 to 30 second MP3 recordings of Jagadguru Shri Kripalu Ji Maharaj reciting sacred verses from revered texts such as the Upanishads, Bhagavad Gita, Bhagwat Purana, Ramayana, various Shastra, various Puranas, and the works of Adi Shankaracharya. The upanishads includes: 
+This repository contains a collection of short 5 to 30 second MP3 recordings of Jagadguru Shri Kripalu Ji Maharaj reciting sacred verses from revered texts such as the Upanishads, Bhagavad Gita, Bhagwat Purana, Ramayana, various Shastra, various Puranas, and the works of Adi Shankaracharya. The upanishads includes: 
 * aitareya
 * brihadaranyaka
 * chandogyo
@@ -26,6 +26,11 @@ This repository contains a collection of short 10 to 30 second MP3 recordings of
 * yogashikha
 
 These recitations capture the essence of these timeless scriptures, offering a moment of spiritual reflection and connection. Each recording is a precious gem of wisdom, presented in the melodious and authoritative voice of Jagadguru Shri Kripalu Maharaj.
+
+## Listening to verses
+Embark on a spiritual journey with the divine wisdom of Jagadguru Shri Kripalu Maharaj. 
+
+Start listening now and experience the transformative power of these sacred verses here - https://kishoriji.github.io/kripalu_recitations_sacred_verses/
 
 ## Purpose
 
