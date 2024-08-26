@@ -34,3 +34,6 @@ The purpose of this repository is to preserve and share the divine wisdom impart
 ## Contributing
 
 Contributions to this repository are welcome. Whether you have additional recordings or wish to improve the repository in any way, please feel free to submit a pull request. Let's work together to spread the timeless wisdom of our revered scriptures.
+
+## How was the audios extracted ?
+The repository was bootstrapped using the [verses_extractor tool](https://github.com/kishoriji/verses_extractor) which segments the verses from a lecture publically avaialbe into sloka verses.
